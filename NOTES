@@ -1,0 +1,21 @@
+    passengers = {
+    suite_a: 1,
+    suite_b: 2,
+    suite_c: 3,
+    suite_d: 4,
+    suite_e: 76
+    }
+
+    winner = 0
+    passengers.each do |suite, number|
+        # winner = number
+        # puts "#{suite}" + "#{winner}"
+        # puts  "#{suite}"
+        # puts passengers.first
+        # puts passengers.first
+       puts passengers.each_key.first
+      end
+     
+  #  winner  
+
+
