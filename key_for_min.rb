@@ -15,7 +15,7 @@ def key_for_min_value(name_hash)
   name_a.each do |i|
       # If current value is lower than default, change value/key pair 
       if i[1] < d_value
-        binding.pry
+        # binding.pry
         d_value = i[1]
         d_key = i[0]
       end
